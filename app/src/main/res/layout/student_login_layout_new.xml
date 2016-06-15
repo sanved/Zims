@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/not_yet_registered"/>
 
-            <Button
+            <TextView
                 android:onClick="onClickRegister"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
