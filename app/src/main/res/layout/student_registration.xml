@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/name"/>
+
+    <EditText
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/student_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/phone"/>
+
+
+    <EditText
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/student_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:id="@+id/student_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:id="@+id/student_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/confirm_password"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:onClick="displayToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_alignTop="@+id/et1"
+            android:layout_alignBottom="@+id/et1"
+            android:layout_alignRight="@+id/et1"
+            android:src="@drawable/email1"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:onClick="onClickStudentRegister"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"/>
+
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

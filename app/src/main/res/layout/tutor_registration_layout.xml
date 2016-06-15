@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:textCursorDrawable="@drawable/test"
+        android:drawableLeft="@drawable/test"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/tut_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/name"/>
+
+    <EditText
+        android:drawableLeft="@drawable/phone"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/tut_et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/phone"/>
+
+
+    <EditText
+        android:drawableLeft="@drawable/password1"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:id="@+id/tut_et_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/qualification"/>
+
+    <EditText
+        android:drawableLeft="@drawable/test"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/tut_et_subject"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/subject"/>
+
+
+    <EditText
+        android:drawableLeft="@drawable/test"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/tut_et_classes"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/classes"/>
+
+
+    <EditText
+        android:drawableLeft="@drawable/test"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:id="@+id/tut_et_experience"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/experience"/>
+
+    <Button
+        android:onClick="onClickTutorRegister"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"/>
+
+</LinearLayout>
+</ScrollView>

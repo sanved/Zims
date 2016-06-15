@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_tutuions"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="My Tutions" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_assignment_black_24dp_1x"
+            android:title="Terms and Conditions" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contacs_us"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/signout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

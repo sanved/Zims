@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224570207723",
+    "firebase_url": "https://project-4863822015577054779.firebaseio.com",
+    "project_id": "project-4863822015577054779",
+    "storage_bucket": "project-4863822015577054779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224570207723:android:7ed46d05bcba1db7",
+        "android_client_info": {
+          "package_name": "varma.com.zimstutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224570207723-jsf1sk5qcosrf8gsahiil1ccn0o55ahs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "varma.com.zimstutions",
+            "certificate_hash": "6815A7617E793F8B32353C8A4A68B53BF30837DF"
+          }
+        },
+        {
+          "client_id": "224570207723-ecuqn0qvphu24vrlegqkn7ubl72smulb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4N4W_PcsNhk4V-HgDt7nRVG-SuGgvbhw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224570207723-ecuqn0qvphu24vrlegqkn7ubl72smulb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
